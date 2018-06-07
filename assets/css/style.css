@@ -22,7 +22,7 @@ h2{
 	color: #fffeff;
 	margin-bottom: 0;
 	padding-bottom: 15px;
-	text-align: left;
+	text-align: center;
 }
 .text-center{
 	text-align: center;
@@ -69,7 +69,7 @@ input[type="text"],input[type="password"] {
 	.form{
 		width: 50%;
 	    margin: 0 25% 0;
-	    padding: 0px;
+	    padding: 0;
 	    text-align: center;
 	 }
 	 input[type="text"],input[type="password"] {
@@ -94,13 +94,19 @@ input[type="text"],input[type="password"] {
 	 h1 {
 	 	font-size: 20px;
 	 }
+	 h2{
+	 	font-size: 18px;
+	 }
 
 	 container{
-	background-image: url("../images/bg2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 0;
-	margin: 0;
+	 	max-height: 768px;
+	 	width: 300px;
+	 	height: 300px; 
+		background-image: url("../images/bg2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 0 auto 100%;
+		margin: 0 auto 100%;
 }
 
 
@@ -113,7 +119,7 @@ input[type="text"],input[type="password"] {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 24px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -136,7 +142,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color:  #2e4baf;
 }
 
 form a {
