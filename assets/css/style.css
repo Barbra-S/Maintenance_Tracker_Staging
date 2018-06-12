@@ -26,13 +26,13 @@ h2{
 }
 h3{
 	color: #ffffff;
-	text-align: center;
 }
 .welcome h2 {
 	font-size: 50px;
 }
 .let h3{
 	font-size: 45px;
+		text-align: center;
 }
 .text-center{
 	text-align: center;
@@ -157,6 +157,14 @@ form a {
 
 .submit a {
 	color: #000;
+}
+h3{
+	text-align: left;
+}
+.cont{
+	background-color: #1a1c1d;
+	margin-bottom: 0;
+
 }
 
 

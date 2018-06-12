@@ -3,16 +3,16 @@ body{
 	color: #ccc;
 	margin: 0;
 	padding: 0;
-}.container{
-	background-color: #4f5152;
-	padding-bottom: 20%;
+    background-color: #4f5152;
+}
+.container{
 	margin: 0;
 }
 
 h1{
 	color: #fffeff;
 	font-weight: 800;
-	font-size: 50px;
+	font-size: 40px;
 	margin-top: 0px;
 	text-align: center;
 }
@@ -47,13 +47,15 @@ li a:hover:not(.active) {
     background-color: #2e4baf;
 }
 
-input[type=text], select, textarea {
+
+input[type=text], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin: 6px 10px 16px;
+    margin-top: 6px;
+    margin-bottom: 10px;
     resize: vertical;
 }
 
@@ -67,19 +69,81 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #2e4baf;}
-    .form {
-	position: relative;
-	z-index: 1;
-	background: #333 ;
-	max-width: 360px;
-    margin: 0 10px 100px;
-    padding: 45px;
+    background-color: #2e4baf;
+}
+
+.content {
+    padding: 0px 10px 0px 10px;
+    display: inline;
+}
+
+.content form {
+	background: #333;
+    padding: 10px;
     text-align: left;
-    margin-left: 10px;
-}
-label{
-	margin-left: 10px;
 }
 
+.reqform{
+    position: relative;
+    padding: 0px;
+    width: 45%;
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
 
+.viewreqs{
+    position: relative;
+    width:45%;
+    float: right;
+    margin: 0px 10px 0px 10px;
+
+}
+
+.viewreqs li {
+    float: 
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+
+.viewreqs ul {
+    list-style-type: none;
+    margin: 0 0 24px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.viewreqs li {
+    float: none;
+}
+
+.viewreqs li a {
+    display: block;
+    color: white;
+    text-align: left;
+    color: #60bade;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.viewreqs li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.badge{
+    background: #60bade;
+    color: white;
+    text-align: right;
+    float: right;
+}
+
+@media (max-width: 482px) {
+    .reqform {
+        width: 40%;
+
+    }
+    .viewreqs {
+        width: 40%;
+    }
+}
