@@ -1,0 +1,149 @@
+body{
+	font: lucida fax 400 24px;
+	color: #ccc;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	background-image: url("../images/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20%;
+	margin: 0;
+}
+h1{
+	color: #fffeff;
+	font-weight: 800;
+	font-size: 60px;
+	margin-top: 0px;
+}
+h2{
+	color: #fffeff;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.text-center{
+	text-align: center;
+}
+.Login{
+	width:360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+.form {
+	 position: relative;
+	 z-index: 1;
+	 background: #333 ;
+	  max-width: 360px;
+     margin: 0 auto 100px;
+     padding: 45px;
+     text-align: center;
+}
+input[type="text"],input[type="password"],input[type="id"] {
+	font-family: "calibri";
+	outline: 1;
+	font-size: 16px;
+	border: 0;
+	background: #ffffff;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	margin: 0 0 15px;
+
+}
+
+.form button{
+	font-family: "calibri";
+	text-transform: uppercase;
+	outline: 0;
+	background-color: #2e4baf;
+	width: 40%;
+	border: 0;
+	padding: 15px;
+
+}
+@media (max-width: 768px) {
+	.form{
+		width: 50%;
+	    margin: 0 25% 0;
+	    padding: 0;
+	    text-align: center;
+	 }
+	 input[type="text"],input[type="password"],input[type="id"] {
+		width: 90%;
+		padding: 15px;
+		box-sizing: border-box;
+		margin: 5px 0px;
+
+	}
+
+	form button{
+	font-family: "calibri";
+	text-transform: uppercase;
+	outline: 0;
+	background-color: #2e4baf;
+	width: 30%;
+	border: 0;
+	padding: 15px;
+
+	}
+
+	h1 {
+	font-size: 20px;
+	}
+
+	h2{
+	font-size: 18px;
+	}
+
+	container{
+	max-height: 768px;
+ 	width: 300px;
+	height: 300px; 
+	background-image: url("../images/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0 auto 100%;
+	margin: 0 auto 100%;
+}
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 24px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:  #2e4baf;
+}
+
+form a {
+	color: #84cafb;
+	text-decoration: none;
+}
+
+.submit a {
+	color: #000;
+}
